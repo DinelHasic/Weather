@@ -1,0 +1,35 @@
+
+.headerColor{
+    background-color: rgb(211, 211, 221);
+}
+
+td:nth-child(odd) {background-color: #dfdfdf;}
+td:nth-child(even) {background-color: #b5d2e6;}
+
+  
+  .forecast-result {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .city-forecast-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  p{
+
+    font-size: 1.2em;
+  }
+
+#showForecast{
+
+   margin-left: 25%;
+   margin-right:25%;
+   border: 0.5px solid black;
+   background-color: rgb(251, 251, 255);
+
+}
